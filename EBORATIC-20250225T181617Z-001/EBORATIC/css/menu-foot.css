@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+/* FUENTES */
+@font-face {
+    font-family: "bodoni";
+    src: url("./../assets/fuentes/BodoniModa_48pt-Regular.ttf");
+}
+@font-face {
+    font-family: "poppins";
+    src: url("./../assets/fuentes/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "roboto";
+    src: url("./../assets/fuentes/Roboto-Regular.ttf");
+}
+/* CUERPO */
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+/* BANNER */
+.banner{    
+    margin: 0;                                       
+    height: 290px;
+    background-image: url("./../assets/img/banner-header.png");
+    background-position: center;
+    background-repeat:repeat-x;
+}
+/* HEADER */
+.header{
+    display: flex;
+    flex: 1 1 300px;
+    flex-wrap: wrap;
+    background-color: #31458c;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo__title{
+    font-size: 3rem;
+    margin: 20px;
+    padding-left: 30px;
+    color: white;
+    font-family: "bodoni";
+}
+.logo__title:hover{
+    color: #ffb100;
+    transition: background-color 1s ease;
+}
+/* MENÚ */
+.nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+}
+.nav__list{
+    display: flex;
+    margin: 20px;
+    padding: 0;
+    margin: 0;
+}
+.nav__item{
+    list-style: none;
+    padding: 0 50px;
+}
+.nav__link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "roboto";
+}
+.nav__link:hover{
+    color: #ffb100;
+    transition: background-color 1s ease;
+}
+/* MAIN */
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* FOOTER    */
+.footer{
+    background-color: #31458c;
+}
+.banner-footer{
+    /* margin-top: 50px; */
+    background-image: url("./../assets/img/banner-foot.png");
+    height: 180px;
+}
+.footer__info{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
+/* REDES */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+.text__redes{
+    font-family: "roboto";
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.redes__link{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+/* HACEMOS-TÉRMINOS */
+ .terminos{
+    text-align: center;
+}
+
+.foot__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot__list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.foot__item{
+    list-style: none;
+}
+.foot__link{
+    text-decoration: none;
+    font-family: "roboto";
+    color: white;
+    font-size: 1.4rem;
+    border-bottom: 1px solid white;
+}
+
+/* COPY */
+.copy{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+}
+.copy__text{
+    color: white;
+    font-family: "roboto";
+    font-size: 1rem;
+}
+
+
+/* TITLE3 */
+.title3{
+    font-size:1.8rem;
+    color: #ffb100;
+    font-family: "roboto";
+}
